@@ -12,7 +12,5 @@ while ncifre != lun :
     ndecimale = ndecimale + (c*(2**espo))
     espo = espo + 1
 
-    
-print("Numero binario in decimale è uguale a", ndecimale)
 print("Il numero binario fornito, con il sistema decimale, corrisponde a ",ndecimale )
 print("Secondo le funzioni di Python il numero binario è uguale a", int(nbinario[::-1], base = 2))
